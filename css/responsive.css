@@ -1,0 +1,235 @@
+@media(max-width:575px) {
+
+    /* nav start */
+    .navbar-toggler {
+        background-color: var(--color_gp);
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .navbar-collapse {
+        background-color: #1bb2f83c;
+        backdrop-filter: blur(15px);
+        box-shadow: 0px 5px 30px black;
+        text-align: center;
+        padding: 10px 0;
+
+    }
+
+    .navbar-collapse ul li {
+        padding: 5px 0;
+        font-weight: 500;
+
+    }
+
+    /* nav end */
+
+    /* banner start */
+    #banner .banner_img {
+        display: none;
+    }
+
+    /* banner end */
+
+    /* why GP part start */
+    #about .about_card {
+        padding: 40px 10px;
+        margin: 20px 5px;
+    }
+
+    /* why GP part end */
+
+    /* features part start */
+    #features .features_img img {
+        height: 500px !important;
+        
+    }
+
+    #features .features_img {
+        text-align: center;
+    }
+    #features .features_card{
+        text-align: center;
+    }
+    #features .features_card .features_icon ,.features_icon_right{
+        display: none;
+    }
+    /* features part end */
+
+    /* pricing part start */
+    #pricing .pricing_item {
+        margin: 20px 20px;
+
+    }
+
+    /* pricing part end */
+
+    /* counter part start */
+    #counter{
+        display: none;
+    }
+    #counter .counter_item {
+        margin-top: 30px;
+    }
+    /* counter part end */
+
+    /* culture part start */
+    #culture .culture_text {
+        display: none;
+    }
+
+    #culture .culture_text_hide {
+        display: block;
+    }
+
+    /* culture part end */
+    /* music part start */
+
+    #music .music_text {
+        display: none;
+    }
+
+    /* music part end */
+    /* download part start */
+    #download .download_item{
+        padding: 20px 0;
+    }
+    /* download part start */
+}
+
+
+
+@media(min-width:576px) and (max-width:767px) {
+
+    /* nav start */
+    .navbar-toggler {
+        background-color: var(--color_gp);
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .navbar-collapse {
+        background-color: #1bb2f83c;
+        backdrop-filter: blur(15px);
+        box-shadow: 0px 5px 30px black;
+        text-align: center;
+        padding: 10px 0;
+
+    }
+
+    .navbar-collapse ul li {
+        padding: 5px 0;
+        font-weight: 500;
+
+    }
+
+    /* nav end */
+    /* why GP part start */
+    #about .about_card {
+        padding: 40px 10px;
+        margin: 20px 5px;
+    }
+
+    /* why GP part end */
+
+    /* features part start */
+    #features .features_img img {
+        height: 600px !important;
+        text-align: center;
+    }
+
+    #features .features_img {
+        text-align: center;
+    }
+    #features .features_card{
+        text-align: center;
+    }
+    #features .features_card .features_icon ,.features_icon_right{
+        display: none;
+    }
+    /* features part end */
+    /* pricing start */
+    #pricing .pricing_item {
+        margin: 10px 20px;
+
+    }
+
+    /* pricing end */
+    /* culture part start */
+    #culture .culture_text {
+        display: none;
+    }
+
+    /* culture part end */
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+    .navbar-toggler {
+        background-color: var(--color_gp);
+
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .navbar-collapse {
+        background-color: #1bb2f81e;
+        backdrop-filter: blur(15px);
+        text-align: right;
+        padding: 10px 0;
+        width: 100%;
+
+    }
+
+    #about .about_card {
+        margin: 15px 5px;
+    }
+
+    /* features part start */
+    #features .features_img img {
+        height: 600px !important;
+        text-align: center;
+    }
+
+    #features .features_img {
+        text-align: center;
+    }
+    #features .features_card{
+        text-align: center;
+    }
+    #features .features_card .features_icon ,.features_icon_right{
+        display: none;
+    }
+
+    /* pricing start */
+    #pricing .pricing_item {
+        margin: 20px 10px;
+
+    }
+
+    /* features part end */
+
+
+    /* pricing end */
+
+    /* footer part start */
+    .footer_item{
+        margin-top: 20px;
+    }
+      /* footer part end */
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+@media(min-width:1200px) and (max-width:1399px) {}
+
+@media(min-width:1400px) {}
