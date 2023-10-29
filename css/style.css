@@ -445,7 +445,7 @@ position: relative;
     border-top: 1px solid #ffffff73;
     border-left: 1px solid #ffffff73;
     cursor: pointer;
-    margin: 0 .5vmax;
+    margin: 0 10px;
 
 }
 #pricing .pricing_item:hover button{
